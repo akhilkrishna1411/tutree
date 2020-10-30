@@ -6,4 +6,7 @@ so we have a bunch of techniques like PCA & t-SNE
 for example if i have features like [cricket football volleyball skate ] now am having four fetaures so my datapoint x(suffix i) belongs to R power(4) i.e R a real value number
 2) data preprocessing:
 before creating a model we need to preprocess our data
-* column normalization
+* column normalization:if a(i) is my data point then a(i)'is given by a(i)-a(min)/a(max)-a(min)
+*value of a(i)' always lies between[0-1]
+*why do we use column normalization:getting rid of scale
+*without spoiling the data we are squeezing the data
