@@ -2,3 +2,8 @@ Dimensionality reduction:
 whenever we are having a 2-Dimensions datset or 3D we can easily visualize through scatter plot but what if we have more than 3D i.e if we are having 100 dimesnion data
 then dimenionality reduction plays a major role.if our data lies in n-D space we try to convert into 2D or 3D
 so we have a bunch of techniques like PCA & t-SNE
+1) representing the datapoints:
+for example if i have features like [cricket football volleyball skate ] now am having four fetaures so my datapoint x(suffix i) belongs to R power(4) i.e R a real value number
+2) data preprocessing:
+before creating a model we need to preprocess our data
+* column normalization
